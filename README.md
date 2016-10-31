@@ -188,7 +188,17 @@ typingIndicator = new AtlasTypingIndicator(this)
 ```
 
 ###<a name="Message Types"></a>Message Types
+Atlas handles a few types of messages by default. The following types are currently supported.
 
+| Type            | Description |
+| ----------------|-------------|
+| Generic         | Default handler for unknown message types. Displays the mimetype and the content size |
+| Text            | Handler for `text/plain` content. |
+| Location        | Handler for `location/coordinate` content. Given `lat`/`lon` information, displays the location image (from Google maps), with a hyperlink that launches Maps application|
+| ThreePartImage  | Handler for 3 part JPEG image, with preview & dimensions. By default, displays the preview image. On tap, downloads and renders the full resolution image |
+| SinglePartImage | Handler for any mime type that starts with `image` tag |
+
+We expect to add support for other handlers in future. If you would like to build a handler, please check this document.
 
 ###<a name="Identity"></a>Identity
 
