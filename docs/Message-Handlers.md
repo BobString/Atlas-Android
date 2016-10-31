@@ -60,7 +60,7 @@ Once the GIF is sent, you have to get the GIF and handle it on the receiving sid
 			
 ###NOTE:
 
-I am sure you are aware of other options here, but I am mentioning these in case they have not been considered.
+There are also few other options to consider. If they were not considered, please do consider them before making your decision.
 
 * Don't send the actual gif through layer, but download it from your server as needed. In this case you can just send a unique gif id as message part. This would allow you to download the correct format for the device on which you are rendering
 
