@@ -188,7 +188,7 @@ typingIndicator = new AtlasTypingIndicator(this)
 ```
 
 ###<a name="Message Types"></a>Message Types
-Atlas handles a few types of messages by default. The following types are currently supported.
+By default, Atlas supports the following types of messages.
 
 | Type            | Description |
 | ----------------|-------------|
@@ -202,7 +202,7 @@ We expect to add support for other handlers in future. If you would like to buil
 
 ###<a name="Identity"></a>Identity
 
-An application server can directly upload user information to Layer Servers. This is made available via Layer Android SDK as <a href="https://docs.layer.com/sdk/android/identities">Identities</a>. Atlas uses Identities to display user information.
+An application server can directly upload user information to Layer server. This user information is called <a href="https://docs.layer.com/sdk/android/identities">Identity</a>. `AtlasAddressBar` and `AtlasAvater` are controls that are used to render the Identity information.
 
 ####AtlasAddressBar
 `AtlasAddressBar` can be used to show a list of users. For eg, the list of users in a `Conversation` or to show a user list for creating a new `Conversation`.
