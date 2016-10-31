@@ -198,7 +198,7 @@ Atlas handles a few types of messages by default. The following types are curren
 | ThreePartImage  | Handler for 3 part JPEG image, with preview & dimensions. By default, displays the preview image. On tap, downloads and renders the full resolution image |
 | SinglePartImage | Handler for any mime type that starts with `image` tag |
 
-We expect to add support for other handlers in future. If you would like to build a handler, please check this document.
+We expect to add support for other handlers in future. If you would like to build a handler, please check <a href="docs/Message-Handlers.md">doc on message handlers</a>.
 
 ###<a name="Identity"></a>Identity
 
